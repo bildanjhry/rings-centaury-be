@@ -1,0 +1,28 @@
+{
+  "name": "rings-centaury-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file .env ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bildanjhry/rings-centaury-be.git"
+  },
+  "keywords": [],
+  "author": "space_ranger",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/bildanjhry/rings-centaury-be/issues"
+  },
+  "homepage": "https://github.com/bildanjhry/rings-centaury-be#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
