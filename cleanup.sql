@@ -6,6 +6,7 @@ DROP TABLE IF EXISTS "product_specs";
 DROP TABLE IF EXISTS "product_image";
 DROP TABLE IF EXISTS "specs_type";
 DROP TABLE IF EXISTS "product_color";
+DROP TABLE IF EXISTS "product_discount";
 DROP TABLE IF EXISTS "products";
 DROP TABLE IF EXISTS "payment_method";
 DROP TABLE IF EXISTS "profile";

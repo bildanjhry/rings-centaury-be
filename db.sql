@@ -139,6 +139,7 @@ CREATE TABLE "payment_method" (
 );
 
 CREATE TABLE "transactions" (
+    "id" UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     "worker_id" UUID REFERENCES "users"("id"),
     "product_transaction_id" UUID REFERENCES "products"("id"),
     "payment_method_id" UUID REFERENCES "payment_method"("id"),
