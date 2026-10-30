@@ -4,7 +4,7 @@ import * as prodControllers from "../controllers/product.ctrl.js"
 const prodRoutes = Router()
 /**
  * @swagger
- * /product:
+ * /api/product:
  *   get:
  *    description: Get all available products
  *    tags:
@@ -34,7 +34,7 @@ prodRoutes.get("", prodControllers.GetAllProducts)
 
 /**
  * @swagger
- * /product:
+ * /api/product:
  *   post:
  *    description: Add new product
  *    tags:

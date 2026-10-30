@@ -5,7 +5,7 @@ const brandRoutes = Router()
 
 /**
  * @swagger
- * /brand:
+ * /api/brand:
  *   get:
  *    description: Get all available brands
  *    tags:
@@ -28,7 +28,7 @@ brandRoutes.get("", brandControllers.GetAllBrands)
 
 /**
  * @swagger
- * /brand:
+ * /api/brand:
  *   post:
  *    description: Add new brand
  *    tags:

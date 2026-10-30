@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS "transactions";
+DROP TABLE IF EXISTS "product_transaction";
+DROP TABLE IF EXISTS "product_variant";
+DROP TABLE IF EXISTS "products_categories";
+DROP TABLE IF EXISTS "product_specs";
+DROP TABLE IF EXISTS "product_image";
+DROP TABLE IF EXISTS "specs_type";
+DROP TABLE IF EXISTS "product_color";
+DROP TABLE IF EXISTS "products";
+DROP TABLE IF EXISTS "payment_method";
+DROP TABLE IF EXISTS "profile";
+DROP TABLE IF EXISTS "categories";
+DROP TABLE IF EXISTS "brands";
+DROP TABLE IF EXISTS "users";

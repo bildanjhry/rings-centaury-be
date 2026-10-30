@@ -3,6 +3,7 @@ import swaggerJSDoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express"
 import prodRoutes from "./product_route.js";
 import brandRoutes from "./brand_route.js"
+import catRoutes from "./cat_route.js";
 
 const swaggerOpt = {
     definition: {
@@ -29,8 +30,9 @@ const swaggerOpt = {
 const swagger = swaggerJSDoc(swaggerOpt)
 
 const routes = Router()
-routes.use("/product", prodRoutes)
-routes.use("/brand", brandRoutes)
-routes.use("/rc-api", swaggerUi.serve, swaggerUi.setup(swagger))
+routes.use("/api/product", prodRoutes)
+routes.use("/api/brand", brandRoutes)
+routes.use("/api/category", catRoutes)
+routes.use("/api/doc", swaggerUi.serve, swaggerUi.setup(swagger))
 
 export default routes
